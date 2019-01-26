@@ -43,13 +43,7 @@ ul li.active a{
 	float: right;
 	width: 150;
 	height: auto;
-	position: absolute;
-	left:1550px;
-	bottom:620px;
-
+	position: static;
 }
 
-	
 
-
-}
