@@ -18,17 +18,38 @@ ul{
 
 ul li{
 	display: inline-block;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding:15px 50px;
-	border: 1px solid white;
+	border: 1px solid transparent;
+	transition: 0.3s ease;
 }
 
 ul li a:hover{
 	background-color: white;
 	color: black;
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	float: right;
+	width: 150;
+	height: auto;
+	position: absolute;
+	left:1550px;
+	bottom:620px;
+
+}
+
+	
+
+
 }
